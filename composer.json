@@ -1,5 +1,5 @@
 {
-    "name": "formapro/pvm",
+    "name": "sicaboy/pvm",
     "license": "MIT",
     "type": "lib",
     "description": "The library provides us with a frame to build a workflow or a business process such as BPMN. Could execute tasks in parallel or delayed tasks",
@@ -17,9 +17,9 @@
         "psr-4": { "Tests\\": "tests/" }
     },
     "require": {
-        "php": "^7.1",
-        "formapro/values": "^0.5",
-        "ramsey/uuid": "^3",
+        "php": "^7.1|^8.0",
+        "sicaboy/values": "^0.6",
+        "ramsey/uuid": "^3|^4",
         "psr/log": "^1"
     },
     "require-dev": {
@@ -33,7 +33,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.4.x-dev"
+            "dev-master": "0.6.x-dev"
         }
     }
 }
